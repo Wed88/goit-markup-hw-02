@@ -10,13 +10,13 @@
     --accent-color: #E7E9FC;
     --light-color: #F4F4FD;
     --modalOverlay-color: #2E2F42;
-    --heroBackground-color: #2E2F42;
     --whiteBackground-color: #FFFFFF;
 }
 
 body {
     font-family: var(--main-font);
-    color: var(--dark-color)
+    color: var(--dark-color);
+    background: var(--whiteBackground-color);
 }
 
 ul, li {
@@ -25,4 +25,126 @@ ul, li {
 
 a {
     text-decoration: none;
+}
+
+/* Header */
+
+.logo, .logo-web, .logo-studio {
+    font-family: var(--second-font);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--dark-color);
+}
+
+.logo-web {
+    color: var(--primaryBrand-color);
+}
+
+.logo-studio {
+    color: var(--light-color);
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active, .mail-link:hover, .tel-link:hover {
+    color: var(--pressedState-color);
+}
+
+.mail-link, .tel-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+/* Hero */
+
+.hero {
+    background: var(--dark-color);
+}
+
+.main-title {
+    color: var(--whiteBackground-color);
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--whiteBackground-color);
+    background: var(--primaryBrand-color);
+}
+
+.hero-button:hover {
+    background: var(--pressedState-color);
+}
+
+/* About us */
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* What are we doing */
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+/* Our Team */
+
+.team-section{
+    background: var(--light-color);
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/* Footer */
+
+.footer {
+    background: var(--dark-color);
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-color);
 }
