@@ -51,7 +51,7 @@ body {
     color: var(--dark-color);
 }
 
-.nav-link:hover, .nav-link:focus, .nav-link:active, .mail-link:hover, .tel-link:hover {
+.nav-link:hover, .nav-link:focus, .nav-link:active, .mail-link:hover, .tel-link:hover, .mail-link:focus, .tel-link:focus {
     color: var(--pressedState-color);
 }
 
@@ -64,7 +64,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: var(--text-color);
 }
 
 /* Hero */
