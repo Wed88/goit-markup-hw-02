@@ -51,7 +51,7 @@ body {
     color: var(--dark-color);
 }
 
-.nav-link:hover, .nav-link:focus, .nav-link:active, .mail-link:hover, .tel-link:hover, .mail-link:focus, .tel-link:focus {
+.nav-link:hover, .nav-link:focus, .nav-link:active, .address-link:hover, .address-link:focus {
     color: var(--pressedState-color);
 }
 
@@ -59,7 +59,7 @@ body {
     font-style: normal;
 }
 
-.mail-link, .tel-link {
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
